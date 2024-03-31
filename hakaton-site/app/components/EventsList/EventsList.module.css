@@ -1,0 +1,75 @@
+.redDot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 2px;
+  margin-bottom: 3px;
+}
+
+.eventsListTitleToday {
+  font-family: Montserrat;
+  font-size: 22px;
+}
+
+.eventsListTitle {
+  color: #8b7f6f;
+  font-family: Montserrat;
+  font-size: 22px;
+}
+
+.eventsList h2 {
+  margin: 10px;
+}
+
+.not_found {
+  color: black;
+}
+
+.seeAll {
+  height: 150px;
+  border: #8b7f6f 3px solid;
+  color: #8b7f6f;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 200;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in, transform 0.2s ease-in-out,
+    box-shadow 0.1s ease-in;
+}
+
+.seeAll:hover {
+  background-color: white;
+  transform: translate(0px, -5px);
+  box-shadow: 2px 5px 1px rgba(0, 0, 0, 1);
+}
+
+.none__events {
+  height: 150px;
+  border: #8b7f6f 3px solid;
+  color: #8b7f6f;
+  text-align: center;
+  align-content: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.seeAll h3 {
+  margin: 10px;
+}
+
+.eventsList {
+  display: inline-block;
+  vertical-align: top;
+  width: 230px;
+  margin-right: 50px;
+}
+
+.all {
+  text-decoration: none;
+}

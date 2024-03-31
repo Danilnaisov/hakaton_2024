@@ -1,0 +1,59 @@
+.event__image {
+  width: 230px;
+  height: 150px;
+  object-fit: fill;
+}
+
+.event__title {
+  font-family: Montserrat;
+  font-weight: 600;
+  text-wrap: wrap;
+  font-size: 16px;
+  margin: 0;
+  margin-top: 5px;
+  color: black;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.event {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: #fcfcf0;
+  height: 250px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  overflow: hidden;
+  border: 1px black solid;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in, transform 0.2s ease-in-out,
+    box-shadow 0.1s ease-in;
+}
+
+.event:hover {
+  background-color: white;
+  transform: translate(0px, -5px);
+  box-shadow: 2px 5px 1px rgb(0, 0, 0);
+}
+
+.event a {
+  text-decoration: none;
+}
+
+.event__card-location {
+  font-family: Montserrat;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.event__card-date {
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  font-weight: 700;
+  color: #8b7f6f;
+}

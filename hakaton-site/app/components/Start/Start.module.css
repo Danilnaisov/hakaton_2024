@@ -1,0 +1,41 @@
+.title {
+  width: 100%;
+  height: 830px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    108deg,
+    #ece5db 18%,
+    #fdfdf1 28%,
+    #ece5db 38%,
+    #ece5db 66%,
+    #fdfdf1 83%,
+    #ece5dd 92%
+  );
+}
+
+.title h1 {
+  margin: 0;
+  background: linear-gradient(90deg, #970909 42%, #ff0000 57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: Old Standart TT Bold;
+}
+
+.title h4 {
+  margin: 0px;
+  background: linear-gradient(90deg, #970909 42%, #ff0000 57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+}

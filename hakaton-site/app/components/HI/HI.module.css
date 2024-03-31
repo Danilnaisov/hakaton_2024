@@ -1,0 +1,28 @@
+.hello__section {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding-bottom: 100px;
+}
+
+.hi__img {
+  padding-top: 165px;
+  width: 560px;
+  height: 380px;
+}
+
+.hello__text {
+  padding-top: 100px;
+  width: 460px;
+  text-wrap: wrap;
+}
+
+.hello__text h2 {
+  font-family: Old Standart TT Bold;
+  font-weight: 700;
+}
+
+.hello__text h4 {
+  font-family: Montserrat;
+  font-weight: 400;
+}

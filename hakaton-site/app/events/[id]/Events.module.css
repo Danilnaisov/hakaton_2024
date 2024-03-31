@@ -1,0 +1,76 @@
+.main__container {
+  padding-top: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+.event {
+  width: 1100px;
+}
+
+.title__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event__image {
+  width: 100%;
+  height: 450px;
+}
+
+.event__title {
+  padding: 0px;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.event__subtitle {
+  padding: 0px;
+  font-size: 20px;
+  color: #8b7f6f;
+}
+
+.event__text {
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #8b7f6f;
+  font-weight: 400;
+}
+
+.event__base {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+.event__base a {
+  display: flex;
+  gap: 5px;
+  text-decoration: none;
+  color: red;
+}
+
+.event__carousel {
+  width: 100%;
+}
+
+.event__weather {
+  padding: 0px 20px;
+  width: auto;
+  display: flex;
+  gap: 15px;
+}
+
+.event__weather img {
+  padding-bottom: 5px;
+  width: 25px;
+}
+
+.event__weather-temperature {
+  color: #8b7f6f;
+  font-family: Old Standart TT Regular;
+  font-size: 16px;
+}

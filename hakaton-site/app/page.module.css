@@ -1,0 +1,146 @@
+.redDot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 2px;
+  margin-bottom: 3px;
+}
+
+.eventLists {
+  display: flex;
+  justify-content: center;
+}
+
+.seeAll {
+  margin-top: 50px;
+  height: 150px;
+  width: 230px;
+  border: #8b7f6f 3px solid;
+  color: #8b7f6f;
+  text-align: center;
+  align-content: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 200;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in, transform 0.2s ease-in-out,
+    box-shadow 0.1s ease-in;
+}
+
+.seeAll:hover {
+  background-color: white;
+  transform: translate(0px, -5px);
+  box-shadow: 2px 5px 1px rgba(0, 0, 0, 1);
+}
+
+.calendar {
+  text-decoration: none;
+  color: #8b7f6f;
+}
+
+.seeAll h3 {
+  margin: 10px;
+}
+
+.event__container {
+  margin: auto;
+  max-width: 960px;
+  padding: 20px;
+  font-family: Montserrat;
+  padding-top: 50px;
+}
+
+.event__category {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.event__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+.event__card img {
+  width: 100%;
+}
+
+.event__card h3 {
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+.event__card-description {
+  padding-left: 20px;
+  padding-right: 10px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.event__card-date {
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  font-weight: 700;
+}
+
+.event__card {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: #fcfcf0;
+
+  width: 280px;
+  height: 350px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  border: 1px black solid;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in, transform 0.2s ease-in-out,
+    box-shadow 0.1s ease-in;
+}
+
+.event__card:hover {
+  background-color: white;
+  transform: translate(0px, -5px);
+  box-shadow: 2px 5px 1px rgb(0, 0, 0);
+}
+
+.event__not-found {
+  text-align: center;
+}
+
+.event__card-location {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event__image {
+  width: 230px;
+  height: 150px;
+  object-fit: fill;
+}
+
+.event__title {
+  font-family: Montserrat;
+  font-weight: 600;
+  text-wrap: wrap;
+  font-size: 16px;
+  margin: 0;
+  margin-top: 5px;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.event {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  height: 200px;
+  overflow: hidden;
+}
