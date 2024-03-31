@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MVmHtVpoloa0Uq0ca4IPKX1SSSGMBFkDApbVvASKD0EOD2inTJSy2iNanX9r9A7JfUktByw0nSjnActlZshFAQ==",
+  "dgSpecHash": "Zd7hyAQm8RYWJfvbkmPVKxzSEtH3yQjge5UQLjm+rrG20LfTrxl4/id4+osASXSwd0FKcgHkhkYSBLEPyHS9zQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danil\\Documents\\GitHub\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\danil\\Documents\\GitHub\\hakaton_2024\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
